@@ -1,0 +1,50 @@
+body{
+    background-color: teal;
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+img{
+    height: 500px; 
+    width: 150px;
+}
+
+.image{
+    display:flex;
+    justify-content: center;
+    background-color:indigo;
+    width: 300px;
+    height: 550px;
+    align-items: end;
+}
+
+.header{
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+   
+}
+
+h1{
+    font-size: 60px;
+}
+
+.details{
+    width: 550px;
+    padding-bottom: 30px;
+}
+
+.tagline{
+    font-style: italic;
+    font-weight: bold;
+   
+}
