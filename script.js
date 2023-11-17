@@ -40,6 +40,13 @@ fetch("https://api.punkapi.com/v2/beers/random")
         descriptionContainer.appendChild(description)
         imageContainer.appendChild(image)
         tagContainer.appendChild(tag)
+
+        button = document.createElement("button")
+        button.innerText = `Bring on Another One!`
+        button.classList.add("button")
+        button.onclick = function (){window.location.reload()}
+        container.appendChild(button)
+        
     }
 })
 
